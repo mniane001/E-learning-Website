@@ -27,6 +27,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `chattable`
 --
+CREATE DATABASE expdb;
+USE expdb;
 
 CREATE TABLE `chattable` (
   `username` varchar(20) NOT NULL,
